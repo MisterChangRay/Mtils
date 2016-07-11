@@ -1,0 +1,93 @@
+﻿v0.01    2015年7月9日 10:16:10     张瑞
+append: Mtils.validate.isEmail                                  是否为邮箱
+append: Mtils.validate.isContainsSpecialChar                    是否包含特殊字符
+append: Mtils.validate.isMobile                                 是否为手机号
+append: Mtils.validate.isChinese                                是否全为中文
+append: Mtils.validate.isContainsChinese                        是否包含中文
+append: Mtils.validate.isChineseStart                           是否以中文开头
+append: Mtils.validate.isIDCard                                 是否为身份证号
+append: Mtils.date.format                                       格式化时间
+append: Mtils.safety.MD5                                        MD5数字签名
+append: Mtils.validate.isBankCard                               是否为银行卡号
+append: Mtils.form.formDataForJson                              序列化表单对象为JSON
+append: Mtils.validate.isUniqueAction                           表单只能唯一性的提交一次
+append: Mtils.text.strReverse                                   字符串反转
+append: Mtils.validate.isUrl                                    是否为URL地址
+append: Mtils.text.delCookie                                    删除cookie
+append: Mtils.text.setCookie                                    设置cookie
+append: Mtils.text.getCookie                                    获取cookie
+
+v0.02   2015年7月14日 11:31:48     张瑞
+* 在原本的方法上进行重构, 修正一些方法的逻辑错误.
+* 对方法名, 参数名进行重构, 符合见名知意.
+append: Mtils.safety.uniqueId                                   获取一个唯一的时间戳
+append: Mtils.text.trim                                         清除文本中的空白字符
+append: Mtils.text.ltrim                                        清除文本左边的的空白字符
+append: Mtils.text.rtrim                                        清除文本右边的的空白字符
+
+v0.03   2015年7月15日 11:32:23     张瑞
+append: Mtils.security.checkerPasswordStrength                  密码强度检测
+append: Mtils.security.hex_sha1                                 sha1数字签名
+append: Mtils.security.hex_sha256                               sha256数字签名
+append: Mtils.security.base64_encode                            base64编码
+append: Mtils.security.base64_decode                            base64解码
+append: Mtils.validate.isTelephone                              是否为固定电话号码
+append: Mtils.validate.isQQ                                     是否为QQ号码
+
+v0.03   2015年7月16日 09:25:09       张瑞
+append: Mtils.security.checkerSensitiveChar                     用户名或昵称的敏感词汇检查
+append: Mtils.validate.isIpV4                                   是否为IPV4地址
+fixbug: Mtils.validate.isEmail                                  优化邮箱验证
+
+v0.06   2015年8月11日17:04:05        张瑞
+fixbug: Mtils.form.formDataForJson                              修正表单数据组装成Json的一处错误
+append: Mtils.validate.isInt                                    判断数据是否为正整数
+
+v0.07   2015年9月8日10:49:49         张睿
+append: Mtils.form.getUrlParam                                  获取URL地址中的参数
+append: Mtils.text.formatMoney                                  格式化金额
+append: Mtils.text.formatMoneyToChinese                         将阿拉伯金额表达转换为汉字金额表达
+append: Mtils.security.random                                   生成一个制定位数的随机数
+append: Mtils.security.randomBetween                            生成一个介于指定条件的随机数
+
+v0.08   2015年10月8日13:22:00        张瑞
+append:Mtils.other.imgPreview                                   对图片进行预览
+
+v0.09   2015-10-15 09:43:43          张瑞
+append:Mtils.other.accAdd                                       比JS计算更为精确的加法函数
+append:Mtils.other.accSub                                       比JS计算更为精确的减法函数
+append:Mtils.other.accMul                                       比JS计算更为精确的乘法函数
+append:Mtils.other.accDiv                                       比JS计算更为精确的除法函数
+append:Mtils.security.checkFileInfo                             检查上传文件的文件信息
+
+v0.10                               张瑞
+append:Mtils.security.checkFunctionExits                        检测函数是否存在
+append:Mtils.security.checkVariableExits                        检测变量是否存在
+
+v0.11                               张瑞
+append:Mtils.validate.isEnglish                                 是否为英文字母
+
+v0.12
+append:Mtils.validate.isQQ                                 		是否为QQ
+fixbug:Mtils.security.checkFileInfo                             修复循环异常
+
+v0.13
+append:Mtils.security.isArray									检查参数是否为数组
+append:Mtils.text.jsonForRequestStr								json转换为请求参数字符串
+append:Mtils.security.isObj										检查参数是否为对象
+
+v0.14
+fixbug: Mtils.validate.isEmail                                  修复某些邮箱不能验证问题
+
+v0.15                               张瑞          2015-12-29 14:18:23
+delete:Mtils.validate.isInt
+delete:Mtils.validate.isQQ                                      存在两个,删掉一个
+append:Mtils.validate.isNumber                                  输入是否为数字
+append:Mtils.validate.isInteger                                 输入是否为整数
+append:Mtils.validate.isDecimal                                 输入是否为小数
+
+v0.16                               张瑞          2015-12-29 14:18:23
+append:Mtils.other.easyUIDateBoxExMonth                         easyui datebox控件,让其只选择月份
+
+v0.17                               张瑞          2016-07-11 17:46:04
+append:Mtils.utils.makePy                         取中文首字母
