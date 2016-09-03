@@ -6,5 +6,5 @@ mtils is my utils
 
 
 #如何使用
-1. 引入jquery, 由于某些方法是基于jquery编写的，如使用请引入jquery。详情参阅文档。
+1. 引入jquery, 由于某些方法是基于jquery编写的，如使用请引入jquery。详情[参阅文档](https://misterchangray.github.io/Mtils/)。
 2. 引入Mtils.js
